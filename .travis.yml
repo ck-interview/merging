@@ -1,4 +1,4 @@
-language: php
+language: bash
 sudo: false
 script:
  - sleep 15
