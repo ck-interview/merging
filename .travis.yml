@@ -2,6 +2,6 @@ language: bash
 sudo: false
 script:
  # No dir3/fail allowed!
- - [ -e dir3/fail ] && exit 1
+ - "[ -e dir3/fail ] && exit 1"
  # sleep for a few moments to fake a real test :)
  - sleep 15
